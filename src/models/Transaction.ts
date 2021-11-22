@@ -7,7 +7,6 @@ class Transaction {
   title: string;
   
   value: number;
-  
   type: 'income' | 'outcome';
 
   constructor({ title, value, type }: Omit<Transaction, 'id'>) {
